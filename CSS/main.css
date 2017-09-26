@@ -1,0 +1,203 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Fonts and Text Settings */
+
+.ProjectsHeader {
+    text-align: center;
+    padding-bottom: 50px;}
+
+.ProjectText {
+    text-align: center;
+    padding-bottom:50px;
+    margin-left:50px;
+    margin-right:50px;}
+
+.jumbotron h1 {
+    font-size: 90px;
+    font-size: 5.5rem!important;
+    color: white;
+}
+
+.nav {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px!important;
+   
+}
+
+.nav a {
+    color: black;
+}
+
+.navbar {
+    margin-top: -40px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#blue {
+    background-color:  color: rgb(2,168,163)!important; 
+}
+
+.nav {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.navbar-default .nav-justified a {
+    margin: 0px 45px 0px 5px;
+}
+
+.navbar-default .nav-justified a:hover {
+    background-color: transparent;
+    -webkit-transition-duration: 0.78s;
+    transition-duration: 0.78s;
+    color: red;
+}
+
+.navbar-inverse .nav-justified a:visited {
+    color: darkslategrey;
+}
+
+.sectionGrey{
+    background-color: rgba(233,236,239,1);
+    margin-bottom:50px;
+    margin-top:50px;
+}
+
+.sectionWhite{
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+.menu {
+    padding-bottom: 150px;
+}
+.Projectmenu {
+    padding-bottom: 100px;
+}
+.summary {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.summary p {
+    
+}
+.summary img {
+    height: 400px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+
+
+video{display:block;
+
+height:95vh;}
+video#bgvid {
+
+position: fixed;
+top: 50%;
+left:50%;
+min-width:100%;
+min-height:100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) traslateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%)
+background: url(andrewarthurbreeseboneyardrawbrollmp4.jpg) no-repeat;
+background-size: cover;
+}
+
+
+/*-- -------- Header & Video Container, Video ---------- */
+
+.header-container {
+    width:100%
+        height:900px
+        border-left: none;
+    border-right:none;
+    position: relative;
+    padding: 0px;
+    
+}
+
+.video-container {
+    
+    position: absolute;
+    top: 0%;
+    left 0%;
+    height: 100%;
+    width: 100%;
+    
+}
+video {
+    Position: absolute;
+    z-index: -1;
+    opacity : 0.78;
+    top:0%;
+    width: 100%;
+    height: 900px;
+    
+    
+}
+
+.videobackground {
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+    background-color: transparent! important; 
+    font-family: 'Nunito', sans-serif;
+    padding-top: 180px!important;
+ /* picture CSS Items */   
+}
+
+.testpic {position: center;
+    width: 1200px;
+    height:400px;
+    top:0%;
+    left:0%;
+    margin: 0px;
+}
+
+.aboutsum  {text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin:80px;
+}
+
+.mlogpic {
+    
+    width: 100px
+}
+
+.banner {
+    position:"center";
+    width:100%;
+    top:100%;
+    padding-bottom:50px;
+        
+}
+
+.projects {
+    margin 10px;
+    width:500px;
+    height: 300px;
+    padding:30px;
+    border-radius:50px;
+    
+}
