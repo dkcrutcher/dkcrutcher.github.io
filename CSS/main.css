@@ -23,6 +23,9 @@ html, body {
 .SocialMedia {
     background: black;
     color: whitesmoke;
+     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 .SMicon {
     width: 40px;
