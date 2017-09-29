@@ -82,11 +82,13 @@ html, body {
     background-color: rgba(233,236,239,1);
     margin-bottom:50px;
     margin-top:50px;
+    padding-bottom:100px
 }
 
 .sectionWhite{
     margin-bottom: 50px;
     margin-top:50px;
+    padding-bottom:100px
 }
 .menu {
     padding-bottom: 150px;
