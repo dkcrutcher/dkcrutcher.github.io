@@ -5,9 +5,24 @@ html, body {
 
 /* Fonts and Text Settings */
 
+
 .ProjectsHeader {
     text-align: center;
-    padding-bottom: 50px;}
+    padding-bottom: 50px;
+    padding-right:50px;
+    padding-left:50px;
+
+}
+.projectIntro {
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+        max-width:1600px;
+    padding:30px;
+    border-radius:30px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
 
 .ProjectText {
     text-align: center;
@@ -86,19 +101,29 @@ html, body {
     background-color: rgba(233,236,239,1);
     margin-bottom:50px;
     margin-top:50px;
-    padding-bottom:100px
+    padding-bottom:100px;
+    padding-right:50px;
+    padding-left:50px;
+     resize: both;
+    overflow:auto;
+    
 }
 
 .sectionWhite{
     margin-bottom: 50px;
     margin-top:50px;
-    padding-bottom:100px
+    padding-bottom:10%;
+    padding-right:50px;
+    padding-left:50px;
+    resize: both;
+    overflow:auto;
+    
 }
 .menu {
     padding-bottom: 150px;
 }
 .Projectmenu {
-    padding-bottom: 100px;
+    padding-bottom: 100px
 }
 .summary {
     text-align: center;
@@ -219,3 +244,64 @@ video {
     border-radius:50px;
     
 }
+
+.projectText { 
+    padding: 20px;
+    margin: 20px;
+}
+
+.LeftProText {
+   
+     max-height: 480px;
+    max-width:801px;
+    
+    resize:both;
+    overflow:auto;
+    padding:30px;
+    background-color:rgba(0,0,0,.5);
+    border-radius: 30px;
+    color:white;
+    
+ margin-right:auto;
+  
+    
+}
+
+.RightProText { 
+    max-height: 480px;
+    max-width:800px;
+    resize:both;
+    overflow:auto;
+    padding:0px;
+    background-color:rgba(0,0,0,.5);
+    border-radius: 30px;
+    color:white;
+    
+ margin-left:auto;
+  
+}
+
+.RightMedia {
+    background-color:rgba(0,0,0,.5);
+    padding 500px;
+    height:auto;
+    width:auto;
+    position:absolute;
+    left:1200px;
+
+  
+    
+}
+
+.LeftMedia {
+    background-color:rgba(0,0,0,.5);
+    padding 100px;
+    height:auto;
+    width:auto;
+    position:absolute;
+    left:1200px;
+
+  
+    
+}
+
